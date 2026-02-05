@@ -18,7 +18,7 @@
   }
 
   &-wrapper {
-    @include flexPosition();
+    @include flexPosition;
   }
 }
 
@@ -78,4 +78,8 @@
       background-color: color.adjust(color-fn(primary), $lightness: 20%);
     }
   }
+}
+
+.products-btn {
+  @include flexPosition;
 }
